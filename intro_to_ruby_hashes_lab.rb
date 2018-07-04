@@ -20,7 +20,7 @@ def monopoly_with_second_tier
   monopoly[:railroads][:rent_in_dollars] = {}
   monopoly[:railroads][:rent_in_dollars][:one_piece_owned] = 25
   monopoly[:railroads][:rent_in_dollars][:two_piece_owned] = 25
-  monopoly[:railroads][:rent_in_dollars][:one_piece_owned] = 25
+  monopoly[:railroads][:rent_in_dollars][:three_piece_owned] = 25
   monopoly[:railroads][:rent_in_dollars][:one_piece_owned] = 25
   
   {reading_railroad: {}}, : {one_piece_owned: 25, : 50, three_piece_owned: 100, four_piece_owned: 200}}
