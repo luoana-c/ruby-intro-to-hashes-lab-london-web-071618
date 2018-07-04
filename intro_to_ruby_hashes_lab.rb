@@ -19,11 +19,11 @@ def monopoly_with_second_tier
   monopoly[:railroads][:names] = {} 
   monopoly[:railroads][:rent_in_dollars] = {}
   monopoly[:railroads][:rent_in_dollars][:one_piece_owned] = 25
-  monopoly[:railroads][:rent_in_dollars][:two_piece_owned] = 25
-  monopoly[:railroads][:rent_in_dollars][:three_piece_owned] = 25
-  monopoly[:railroads][:rent_in_dollars][:one_piece_owned] = 25
+  monopoly[:railroads][:rent_in_dollars][:two_piece_owned] = 50
+  monopoly[:railroads][:rent_in_dollars][:three_piece_owned] = 100
+  monopoly[:railroads][:rent_in_dollars][:four_piece_owned] = 200
+  monopoly[:railroads][:names][:reading_railroad] = {}
   
-  {reading_railroad: {}}, : {one_piece_owned: 25, : 50, three_piece_owned: 100, four_piece_owned: 200}}
 end
 
 def monopoly_with_third_tier
